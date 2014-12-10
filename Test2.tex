@@ -1,0 +1,130 @@
+\documentclass[english,pdf,pagemark,stamp]{sdaps}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{tabularx}
+
+
+\author{Zebracorns}
+\title{Standard Stand Scouting Form}
+
+\setlength{\columnseprule}{1pt}
+
+\begin{document}
+  \begin{questionnaire}[noinfo]
+
+    \section{Identity Section}
+
+\begin{minipage}{90pt}
+   \begin{choicequestion}[1]{Autonomous}
+  \choiceitem{Roll}
+  \choiceitem{Low}
+  \choiceitem{High}
+  \choiceitem{Make}
+  \choiceitem{Miss}
+  \end{choicequestion}
+\end{minipage}%
+\begin{minipage}{80pt}
+1.2 Scouter ID \newline \newline
+\begin{tabularx}{60pt}{|XXXX|}
+ &\Huge$\sqcup$&\Huge$\sqcup$&\\
+  0\newline 1\newline 2\newline 3\newline 4\newline 5\newline 6\newline 7\newline 8\newline 9 & \immediate\write\sdapsoutfile{\unexpanded{QObject-Mark=S1}} \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=0}} \checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox  \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=9}}  &  \immediate\write\sdapsoutfile{\unexpanded{QObject-Mark=S2}} \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=0}} \checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox  \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=9}} &\\
+\end{tabularx}
+\end{minipage}%
+\begin{minipage}{110pt}
+1.3 Team Number \newline \newline
+\begin{tabularx}{100pt}{XXXXXX|}
+ &\Huge$\sqcup$&\Huge$\sqcup$&\Huge$\sqcup$&\Huge$\sqcup$&\\
+  0\newline 1\newline 2\newline 3\newline 4\newline 5\newline 6\newline 7\newline 8\newline 9 & \immediate\write\sdapsoutfile{\unexpanded{QObject-Mark=T1}} \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=0}} \checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox  \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=9}}  &  \immediate\write\sdapsoutfile{\unexpanded{QObject-Mark=T2}} \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=0}} \checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox  \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=9}}  &  \immediate\write\sdapsoutfile{\unexpanded{QObject-Mark=T3}} \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=0}} \checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox  \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=9}}  &  \immediate\write\sdapsoutfile{\unexpanded{QObject-Mark=T4}} \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=0}} \checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox  \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=9}} & \\
+\end{tabularx}
+\end{minipage}%
+\begin{minipage}{120pt}
+1.4 Match Number \newline \newline
+\begin{tabularx}{100pt}{XXXXX|}
+ &\Huge$\sqcup$&\Huge$\sqcup$&\Huge$\sqcup$&\\
+  0\newline 1\newline 2\newline 3\newline 4\newline 5\newline 6\newline 7\newline 8\newline 9 & \immediate\write\sdapsoutfile{\unexpanded{QObject-Mark=M1}} \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=0}} \checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox  \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=9}}  &  \immediate\write\sdapsoutfile{\unexpanded{QObject-Mark=M2}} \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=0}} \checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox  \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=9}}  &  \immediate\write\sdapsoutfile{\unexpanded{QObject-Mark=M3}} \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=0}} \checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox \newline ~\checkbox  \immediate\write\sdapsoutfile{\unexpanded{Answer-Mark=9}} & \\
+\end{tabularx}
+\end{minipage}%
+\begin{minipage}{100pt}
+    \begin{choicequestion}[1]{Penalties?}
+      \choiceitem{Type 1}
+      \choiceitem{Type 2}
+      \choiceitem{Type 3}
+      \choiceitem{Type 4}
+      \choiceitem{Type 5}
+    \end{choicequestion}
+\end{minipage}%
+
+    \section{Cycles}
+
+\renewcommand{\tabcolsep}{3pt}
+\begin{tabular}{l l}
+4.1 & Cycle Information  \\
+ &
+\begin{tabular}{ l l  l  l l  l  l l}
+   \hspace{6 mm} Poss. Time & &  \hspace{22 mm} Truss &  \hspace{10 mm} \# Shots & &  \hspace{7 mm} Score &   \hspace{26 mm} Role & \\
+\end{tabular}
+\\
+1. &
+\begin{tabular}{ l l | l | l l | l | l l}
+\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C1 Poss.}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=None}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Short}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Medium}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Long}}\begin{tabular}{ l l}  \checkbox \hspace{1 mm} None \\ \checkbox \hspace{1 mm} Short \\ \end{tabular} &\begin{tabular}{ l l} \checkbox \hspace{1 mm} Medium \hspace{3 mm}  \\  \checkbox \hspace{1 mm} Long \hspace{3 mm} \\ \end{tabular} &\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C1 Truss}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Pass}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Catch}}\begin{tabular}{ l l} \checkbox \hspace{1 mm} Pass \hspace{1 mm}  \\  \checkbox \hspace{1 mm} Catch \hspace{1 mm} \\ \end{tabular} &\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C1 Shots}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=0}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=1}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=2}} \immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=3+}}\begin{tabular}{ l l} 0 \hspace{1 mm} \checkbox  \\ 1 \hspace{1 mm} \checkbox \\ \end{tabular} & \begin{tabular}{ l l} 2  \hspace{2 mm} \checkbox \hspace{1 mm}  \\ 3+  \checkbox \hspace{1 mm} \\ \end{tabular} &\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C1 Score}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Low}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=High}}\begin{tabular}{ l l} \checkbox \hspace{1 mm} Low \hspace{1 mm} \\  \checkbox \hspace{1 mm} High \hspace{3 mm} \\ \end{tabular} &\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C1 Role}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Shooter}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Trusser}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Defense}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Useless}} \begin{tabular}{ l l}\checkbox \hspace{1 mm} Shooter  \\ \checkbox \hspace{1 mm} Trusser \\ \end{tabular} & \begin{tabular}{ l l} \checkbox \hspace{1 mm} Defence  \\ \checkbox \hspace{1 mm} Useless \\ \end{tabular} \\
+\end{tabular}
+\\
+\hline    
+2. &
+\begin{tabular}{ l l | l | l l | l | l l}
+\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C2 Poss.}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=None}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Short}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Medium}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Long}}\begin{tabular}{ l l}  \checkbox \hspace{1 mm} None \\ \checkbox \hspace{1 mm} Short \\ \end{tabular} &\begin{tabular}{ l l} \checkbox \hspace{1 mm} Medium \hspace{3 mm}  \\  \checkbox \hspace{1 mm} Long \hspace{3 mm} \\ \end{tabular} &\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C2 Truss}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Pass}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Catch}}\begin{tabular}{ l l} \checkbox \hspace{1 mm} Pass \hspace{1 mm}  \\  \checkbox \hspace{1 mm} Catch \hspace{1 mm} \\ \end{tabular} &\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C2 Shots}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=0}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=1}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=2}} \immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=3+}}\begin{tabular}{ l l} 0 \hspace{1 mm} \checkbox  \\ 1 \hspace{1 mm} \checkbox \\ \end{tabular} & \begin{tabular}{ l l} 2  \hspace{2 mm} \checkbox \hspace{1 mm}  \\ 3+  \checkbox \hspace{1 mm} \\ \end{tabular} &\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C2 Score}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Low}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=High}}\begin{tabular}{ l l} \checkbox \hspace{1 mm} Low \hspace{1 mm} \\  \checkbox \hspace{1 mm} High \hspace{3 mm} \\ \end{tabular} &\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C2 Role}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Shooter}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Trusser}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Defense}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Useless}} \begin{tabular}{ l l}\checkbox \hspace{1 mm} Shooter  \\ \checkbox \hspace{1 mm} Trusser \\ \end{tabular} & \begin{tabular}{ l l} \checkbox \hspace{1 mm} Defence  \\ \checkbox \hspace{1 mm} Useless \\ \end{tabular} \\
+\end{tabular}
+\\
+\hline    
+3. &
+\begin{tabular}{ l l | l | l l | l | l l}
+\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C3 Poss.}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=None}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Short}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Medium}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Long}}\begin{tabular}{ l l}  \checkbox \hspace{1 mm} None \\ \checkbox \hspace{1 mm} Short \\ \end{tabular} &\begin{tabular}{ l l} \checkbox \hspace{1 mm} Medium \hspace{3 mm}  \\  \checkbox \hspace{1 mm} Long \hspace{3 mm} \\ \end{tabular} &\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C3 Truss}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Pass}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Catch}}\begin{tabular}{ l l} \checkbox \hspace{1 mm} Pass \hspace{1 mm}  \\  \checkbox \hspace{1 mm} Catch \hspace{1 mm} \\ \end{tabular} &\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C3 Shots}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=0}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=1}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=2}} \immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=3+}}\begin{tabular}{ l l} 0 \hspace{1 mm} \checkbox  \\ 1 \hspace{1 mm} \checkbox \\ \end{tabular} & \begin{tabular}{ l l} 2  \hspace{2 mm} \checkbox \hspace{1 mm}  \\ 3+  \checkbox \hspace{1 mm} \\ \end{tabular} &\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C3 Score}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Low}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=High}}\begin{tabular}{ l l} \checkbox \hspace{1 mm} Low \hspace{1 mm} \\  \checkbox \hspace{1 mm} High \hspace{3 mm} \\ \end{tabular} &\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C3 Role}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Shooter}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Trusser}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Defense}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Useless}} \begin{tabular}{ l l}\checkbox \hspace{1 mm} Shooter  \\ \checkbox \hspace{1 mm} Trusser \\ \end{tabular} & \begin{tabular}{ l l} \checkbox \hspace{1 mm} Defence  \\ \checkbox \hspace{1 mm} Useless \\ \end{tabular} \\
+\end{tabular}
+\\
+\hline  
+4. &
+\begin{tabular}{ l l | l | l l | l | l l}
+\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C4 Poss.}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=None}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Short}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Medium}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Long}}\begin{tabular}{ l l}  \checkbox \hspace{1 mm} None \\ \checkbox \hspace{1 mm} Short \\ \end{tabular} &\begin{tabular}{ l l} \checkbox \hspace{1 mm} Medium \hspace{3 mm}  \\  \checkbox \hspace{1 mm} Long \hspace{3 mm} \\ \end{tabular} &\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C4 Truss}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Pass}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Catch}}\begin{tabular}{ l l} \checkbox \hspace{1 mm} Pass \hspace{1 mm}  \\  \checkbox \hspace{1 mm} Catch \hspace{1 mm} \\ \end{tabular} &\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C4 Shots}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=0}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=1}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=2}} \immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=3+}}\begin{tabular}{ l l} 0 \hspace{1 mm} \checkbox  \\ 1 \hspace{1 mm} \checkbox \\ \end{tabular} & \begin{tabular}{ l l} 2  \hspace{2 mm} \checkbox \hspace{1 mm}  \\ 3+  \checkbox \hspace{1 mm} \\ \end{tabular} &\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C4 Score}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Low}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=High}}\begin{tabular}{ l l} \checkbox \hspace{1 mm} Low \hspace{1 mm} \\  \checkbox \hspace{1 mm} High \hspace{3 mm} \\ \end{tabular} &\immediate\write\sdapsoutfile{\unexpanded{QObject-Choice=C4 Role}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Shooter}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Trusser}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Defense}}\immediate\write\sdapsoutfile{\unexpanded{Answer-Choice=Useless}} \begin{tabular}{ l l}\checkbox \hspace{1 mm} Shooter  \\ \checkbox \hspace{1 mm} Trusser \\ \end{tabular} & \begin{tabular}{ l l} \checkbox \hspace{1 mm} Defence  \\ \checkbox \hspace{1 mm} Useless \\ \end{tabular} \\
+\end{tabular}
+\\
+
+\end{tabular}
+
+    \section{Operation}
+
+\begin{multicols}{2}
+
+    \begin{markgroup}{Rate Each of the Following Qualities}
+      \markline{Speed}{1}{5}
+      \markline{Agility}{1}{5}
+      \markline{Driver ability}{1}{5}
+      \markline{Shoving performance}{1}{5}
+
+    \end{markgroup}
+
+\columnbreak
+
+  \begin{choicequestion}[1]{Check Thouse Which Apply}
+  \choiceitem{Especially Innovative Strategy}
+  \choiceitem{Tipped}
+  \choiceitem{Freeze-up/Glitch}
+  \end{choicequestion}
+\vspace{1 mm}
+
+\end{multicols}
+
+    \section{Comments}
+
+\textbox{1cm}{Put any additional qualitative information here:}
+
+  \end{questionnaire}
+\end{document}
+
+  \begin{choicequestion}[1]{Autonomous}
+  \choiceitem{Roll}
+  \choiceitem{Low}
+  \choiceitem{High}
+  \choiceitem{Make}
+  \choiceitem{Miss}
+  \end{choicequestion}

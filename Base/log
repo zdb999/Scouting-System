@@ -1,0 +1,184 @@
+------------------------------------------------------------------------------
+- SDAPS -- setup_tex
+------------------------------------------------------------------------------
+Running pdflatex now twice to generate the questionnaire.
+Running pdflatex now twice to generate the questionnaire.
+Standard Stand Scouting Form
+Author: Zebracorns
+Questionnaire
+1(Head) Identity Section
+1.1(Choice) Autonomous {1}
+	0(Checkbox)  15.1  43.9   3.5   3.5 Roll
+	1(Checkbox)  15.1  48.6   3.5   3.5 Low
+	2(Checkbox)  15.1  53.4   3.5   3.5 High
+	3(Checkbox)  15.1  58.2   3.5   3.5 Make
+	4(Checkbox)  15.1  63.0   3.5   3.5 Miss
+1.2(Head) \hspace {1 mm}Scouter ID
+1.2.1(Choice) \hfill 0 {1}
+	0(Checkbox)  55.8  49.2   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox)  65.9  49.2   3.5   3.5 \Huge $\sqcup $
+1.2.2(Choice) \hfill 1 {1}
+	0(Checkbox)  55.8  54.0   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox)  65.9  54.0   3.5   3.5 \Huge $\sqcup $
+1.2.3(Choice) \hfill 2 {1}
+	0(Checkbox)  55.8  58.8   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox)  65.9  58.8   3.5   3.5 \Huge $\sqcup $
+1.2.4(Choice) \hfill 3 {1}
+	0(Checkbox)  55.8  63.6   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox)  65.9  63.6   3.5   3.5 \Huge $\sqcup $
+1.2.5(Choice) \hfill 4 {1}
+	0(Checkbox)  55.8  68.4   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox)  65.9  68.4   3.5   3.5 \Huge $\sqcup $
+1.2.6(Choice) \hfill 5 {1}
+	0(Checkbox)  55.8  73.1   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox)  65.9  73.1   3.5   3.5 \Huge $\sqcup $
+1.2.7(Choice) \hfill 6 {1}
+	0(Checkbox)  55.8  77.9   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox)  65.9  77.9   3.5   3.5 \Huge $\sqcup $
+1.2.8(Choice) \hfill 7 {1}
+	0(Checkbox)  55.8  82.7   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox)  65.9  82.7   3.5   3.5 \Huge $\sqcup $
+1.2.9(Choice) \hfill 8 {1}
+	0(Checkbox)  55.8  87.5   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox)  65.9  87.5   3.5   3.5 \Huge $\sqcup $
+1.2.10(Choice) \hfill 9 {1}
+	0(Checkbox)  55.8  92.3   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox)  65.9  92.3   3.5   3.5 \Huge $\sqcup $
+1.3(Head) \hspace {14 mm}Team Number
+1.3.1(Choice) \hfill 0 {1}
+	0(Checkbox)  98.2  49.2   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 108.3  49.2   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 118.3  49.2   3.5   3.5 \Huge $\sqcup $
+	3(Checkbox) 128.4  49.2   3.5   3.5 \Huge $\sqcup $
+1.3.2(Choice) \hfill 1 {1}
+	0(Checkbox)  98.2  54.0   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 108.3  54.0   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 118.3  54.0   3.5   3.5 \Huge $\sqcup $
+	3(Checkbox) 128.4  54.0   3.5   3.5 \Huge $\sqcup $
+1.3.3(Choice) \hfill 2 {1}
+	0(Checkbox)  98.2  58.8   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 108.3  58.8   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 118.3  58.8   3.5   3.5 \Huge $\sqcup $
+	3(Checkbox) 128.4  58.8   3.5   3.5 \Huge $\sqcup $
+1.3.4(Choice) \hfill 3 {1}
+	0(Checkbox)  98.2  63.6   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 108.3  63.6   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 118.3  63.6   3.5   3.5 \Huge $\sqcup $
+	3(Checkbox) 128.4  63.6   3.5   3.5 \Huge $\sqcup $
+1.3.5(Choice) \hfill 4 {1}
+	0(Checkbox)  98.2  68.4   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 108.3  68.4   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 118.3  68.4   3.5   3.5 \Huge $\sqcup $
+	3(Checkbox) 128.4  68.4   3.5   3.5 \Huge $\sqcup $
+1.3.6(Choice) \hfill 5 {1}
+	0(Checkbox)  98.2  73.1   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 108.3  73.1   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 118.3  73.1   3.5   3.5 \Huge $\sqcup $
+	3(Checkbox) 128.4  73.1   3.5   3.5 \Huge $\sqcup $
+1.3.7(Choice) \hfill 6 {1}
+	0(Checkbox)  98.2  77.9   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 108.3  77.9   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 118.3  77.9   3.5   3.5 \Huge $\sqcup $
+	3(Checkbox) 128.4  77.9   3.5   3.5 \Huge $\sqcup $
+1.3.8(Choice) \hfill 7 {1}
+	0(Checkbox)  98.2  82.7   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 108.3  82.7   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 118.3  82.7   3.5   3.5 \Huge $\sqcup $
+	3(Checkbox) 128.4  82.7   3.5   3.5 \Huge $\sqcup $
+1.3.9(Choice) \hfill 8 {1}
+	0(Checkbox)  98.2  87.5   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 108.3  87.5   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 118.3  87.5   3.5   3.5 \Huge $\sqcup $
+	3(Checkbox) 128.4  87.5   3.5   3.5 \Huge $\sqcup $
+1.3.10(Choice) \hfill 9 {1}
+	0(Checkbox)  98.2  92.3   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 108.3  92.3   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 118.3  92.3   3.5   3.5 \Huge $\sqcup $
+	3(Checkbox) 128.4  92.3   3.5   3.5 \Huge $\sqcup $
+1.4(Head) \hspace {22 mm}Match Number
+1.4.1(Choice) \hfill 0 {1}
+	0(Checkbox) 170.8  49.2   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 180.8  49.2   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 190.9  49.2   3.5   3.5 \Huge $\sqcup $
+1.4.2(Choice) \hfill 1 {1}
+	0(Checkbox) 170.8  54.0   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 180.8  54.0   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 190.9  54.0   3.5   3.5 \Huge $\sqcup $
+1.4.3(Choice) \hfill 2 {1}
+	0(Checkbox) 170.8  58.8   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 180.8  58.8   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 190.9  58.8   3.5   3.5 \Huge $\sqcup $
+1.4.4(Choice) \hfill 3 {1}
+	0(Checkbox) 170.8  63.6   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 180.8  63.6   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 190.9  63.6   3.5   3.5 \Huge $\sqcup $
+1.4.5(Choice) \hfill 4 {1}
+	0(Checkbox) 170.8  68.4   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 180.8  68.4   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 190.9  68.4   3.5   3.5 \Huge $\sqcup $
+1.4.6(Choice) \hfill 5 {1}
+	0(Checkbox) 170.8  73.1   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 180.8  73.1   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 190.9  73.1   3.5   3.5 \Huge $\sqcup $
+1.4.7(Choice) \hfill 6 {1}
+	0(Checkbox) 170.8  77.9   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 180.8  77.9   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 190.9  77.9   3.5   3.5 \Huge $\sqcup $
+1.4.8(Choice) \hfill 7 {1}
+	0(Checkbox) 170.8  82.7   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 180.8  82.7   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 190.9  82.7   3.5   3.5 \Huge $\sqcup $
+1.4.9(Choice) \hfill 8 {1}
+	0(Checkbox) 170.8  87.5   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 180.8  87.5   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 190.9  87.5   3.5   3.5 \Huge $\sqcup $
+1.4.10(Choice) \hfill 9 {1}
+	0(Checkbox) 170.8  92.3   3.5   3.5 \Huge $\sqcup $
+	1(Checkbox) 180.8  92.3   3.5   3.5 \Huge $\sqcup $
+	2(Checkbox) 190.9  92.3   3.5   3.5 \Huge $\sqcup $
+2(Head) Cycles
+3(Head) Operation
+3.1(Head) Rate Each of the Following Qualities
+3.1.1(Mark) Speed {1}
+	1 - 5
+	0(Checkbox)  60.6 182.5   3.5   3.5 
+	1(Checkbox)  68.4 182.5   3.5   3.5 
+	2(Checkbox)  76.1 182.5   3.5   3.5 
+	3(Checkbox)  83.8 182.5   3.5   3.5 
+	4(Checkbox)  91.5 182.5   3.5   3.5 
+3.1.2(Mark) Agility {1}
+	1 - 5
+	0(Checkbox)  60.6 187.2   3.5   3.5 
+	1(Checkbox)  68.4 187.2   3.5   3.5 
+	2(Checkbox)  76.1 187.2   3.5   3.5 
+	3(Checkbox)  83.8 187.2   3.5   3.5 
+	4(Checkbox)  91.5 187.2   3.5   3.5 
+3.1.3(Mark) Driver ability {1}
+	1 - 5
+	0(Checkbox)  60.6 192.0   3.5   3.5 
+	1(Checkbox)  68.4 192.0   3.5   3.5 
+	2(Checkbox)  76.1 192.0   3.5   3.5 
+	3(Checkbox)  83.8 192.0   3.5   3.5 
+	4(Checkbox)  91.5 192.0   3.5   3.5 
+3.1.4(Mark) Shoving performance {1}
+	1 - 5
+	0(Checkbox)  60.6 196.8   3.5   3.5 
+	1(Checkbox)  68.4 196.8   3.5   3.5 
+	2(Checkbox)  76.1 196.8   3.5   3.5 
+	3(Checkbox)  83.8 196.8   3.5   3.5 
+	4(Checkbox)  91.5 196.8   3.5   3.5 
+3.2(Choice) Check Thouse Which Apply {1}
+	0(Checkbox) 108.9 184.9   3.5   3.5 Especially Innovative Strategy
+	1(Checkbox) 108.9 189.7   3.5   3.5 Tipped
+	2(Checkbox) 108.9 194.5   3.5   3.5 Freeze-up/Glitch
+4(Head) Penalties
+4.1(Choice) Penalty Type (if given) {1}
+	0(Checkbox)  15.1 223.0   3.5   3.5 Type 1
+	1(Checkbox)  38.1 223.0   3.5   3.5 Type 2
+	2(Checkbox)  61.1 223.0   3.5   3.5 Type 3
+	3(Checkbox)  84.1 223.0   3.5   3.5 Type 4
+	4(Checkbox) 107.1 223.0   3.5   3.5 Type 5
+5(Head) Comments
+5.1(Text) Put any additional qualitative information here: {1}
+	0(Textbox )  13.0 248.2 184.0  22.9 
+

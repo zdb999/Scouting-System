@@ -1,0 +1,269 @@
+------------------------------------------------------------------------------
+- SDAPS -- setup_tex
+------------------------------------------------------------------------------
+Running pdflatex now twice to generate the questionnaire.
+Running pdflatex now twice to generate the questionnaire.
+Standard Stand Scouting Form
+Author: Zebracorns
+Questionnaire
+1(Head) Identity Section
+1.1(Choice) Autonomous {1}
+	0(Checkbox)  15.1  58.2   3.5   3.5 Roll
+	1(Checkbox)  15.1  63.0   3.5   3.5 Low
+	2(Checkbox)  15.1  67.7   3.5   3.5 High
+	3(Checkbox)  15.1  72.5   3.5   3.5 Make
+	4(Checkbox)  15.1  77.3   3.5   3.5 Miss
+1.1.1(Mark) S1 {1}
+	0 - 9
+	0(Checkbox)  52.1  50.7   3.5   3.5 
+	1(Checkbox)  52.1  55.5   3.5   3.5 
+	2(Checkbox)  52.1  60.3   3.5   3.5 
+	3(Checkbox)  52.1  65.1   3.5   3.5 
+	4(Checkbox)  52.1  69.8   3.5   3.5 
+	5(Checkbox)  52.1  74.6   3.5   3.5 
+	6(Checkbox)  52.1  79.4   3.5   3.5 
+	7(Checkbox)  52.1  84.2   3.5   3.5 
+	8(Checkbox)  52.1  89.0   3.5   3.5 
+	9(Checkbox)  52.1  93.7   3.5   3.5 
+1.1.2(Mark) S2 {1}
+	0 - 9
+	0(Checkbox)  57.3  50.7   3.5   3.5 
+	1(Checkbox)  57.3  55.5   3.5   3.5 
+	2(Checkbox)  57.3  60.3   3.5   3.5 
+	3(Checkbox)  57.3  65.1   3.5   3.5 
+	4(Checkbox)  57.3  69.8   3.5   3.5 
+	5(Checkbox)  57.3  74.6   3.5   3.5 
+	6(Checkbox)  57.3  79.4   3.5   3.5 
+	7(Checkbox)  57.3  84.2   3.5   3.5 
+	8(Checkbox)  57.3  89.0   3.5   3.5 
+	9(Checkbox)  57.3  93.7   3.5   3.5 
+1.1.3(Mark) T1 {1}
+	0 - 9
+	0(Checkbox)  80.7  50.7   3.5   3.5 
+	1(Checkbox)  80.7  55.5   3.5   3.5 
+	2(Checkbox)  80.7  60.3   3.5   3.5 
+	3(Checkbox)  80.7  65.1   3.5   3.5 
+	4(Checkbox)  80.7  69.8   3.5   3.5 
+	5(Checkbox)  80.7  74.6   3.5   3.5 
+	6(Checkbox)  80.7  79.4   3.5   3.5 
+	7(Checkbox)  80.7  84.2   3.5   3.5 
+	8(Checkbox)  80.7  89.0   3.5   3.5 
+	9(Checkbox)  80.7  93.7   3.5   3.5 
+1.1.4(Mark) T2 {1}
+	0 - 9
+	0(Checkbox)  86.5  50.7   3.5   3.5 
+	1(Checkbox)  86.5  55.5   3.5   3.5 
+	2(Checkbox)  86.5  60.3   3.5   3.5 
+	3(Checkbox)  86.5  65.1   3.5   3.5 
+	4(Checkbox)  86.5  69.8   3.5   3.5 
+	5(Checkbox)  86.5  74.6   3.5   3.5 
+	6(Checkbox)  86.5  79.4   3.5   3.5 
+	7(Checkbox)  86.5  84.2   3.5   3.5 
+	8(Checkbox)  86.5  89.0   3.5   3.5 
+	9(Checkbox)  86.5  93.7   3.5   3.5 
+1.1.5(Mark) T3 {1}
+	0 - 9
+	0(Checkbox)  92.4  50.7   3.5   3.5 
+	1(Checkbox)  92.4  55.5   3.5   3.5 
+	2(Checkbox)  92.4  60.3   3.5   3.5 
+	3(Checkbox)  92.4  65.1   3.5   3.5 
+	4(Checkbox)  92.4  69.8   3.5   3.5 
+	5(Checkbox)  92.4  74.6   3.5   3.5 
+	6(Checkbox)  92.4  79.4   3.5   3.5 
+	7(Checkbox)  92.4  84.2   3.5   3.5 
+	8(Checkbox)  92.4  89.0   3.5   3.5 
+	9(Checkbox)  92.4  93.7   3.5   3.5 
+1.1.6(Mark) T4 {1}
+	0 - 9
+	0(Checkbox)  98.2  50.7   3.5   3.5 
+	1(Checkbox)  98.2  55.5   3.5   3.5 
+	2(Checkbox)  98.2  60.3   3.5   3.5 
+	3(Checkbox)  98.2  65.1   3.5   3.5 
+	4(Checkbox)  98.2  69.8   3.5   3.5 
+	5(Checkbox)  98.2  74.6   3.5   3.5 
+	6(Checkbox)  98.2  79.4   3.5   3.5 
+	7(Checkbox)  98.2  84.2   3.5   3.5 
+	8(Checkbox)  98.2  89.0   3.5   3.5 
+	9(Checkbox)  98.2  93.7   3.5   3.5 
+1.1.7(Mark) M1 {1}
+	0 - 9
+	0(Checkbox) 120.5  50.7   3.5   3.5 
+	1(Checkbox) 120.5  55.5   3.5   3.5 
+	2(Checkbox) 120.5  60.3   3.5   3.5 
+	3(Checkbox) 120.5  65.1   3.5   3.5 
+	4(Checkbox) 120.5  69.8   3.5   3.5 
+	5(Checkbox) 120.5  74.6   3.5   3.5 
+	6(Checkbox) 120.5  79.4   3.5   3.5 
+	7(Checkbox) 120.5  84.2   3.5   3.5 
+	8(Checkbox) 120.5  89.0   3.5   3.5 
+	9(Checkbox) 120.5  93.7   3.5   3.5 
+1.1.8(Mark) M2 {1}
+	0 - 9
+	0(Checkbox) 127.5  50.7   3.5   3.5 
+	1(Checkbox) 127.5  55.5   3.5   3.5 
+	2(Checkbox) 127.5  60.3   3.5   3.5 
+	3(Checkbox) 127.5  65.1   3.5   3.5 
+	4(Checkbox) 127.5  69.8   3.5   3.5 
+	5(Checkbox) 127.5  74.6   3.5   3.5 
+	6(Checkbox) 127.5  79.4   3.5   3.5 
+	7(Checkbox) 127.5  84.2   3.5   3.5 
+	8(Checkbox) 127.5  89.0   3.5   3.5 
+	9(Checkbox) 127.5  93.7   3.5   3.5 
+1.1.9(Mark) M3 {1}
+	0 - 9
+	0(Checkbox) 134.5  50.7   3.5   3.5 
+	1(Checkbox) 134.5  55.5   3.5   3.5 
+	2(Checkbox) 134.5  60.3   3.5   3.5 
+	3(Checkbox) 134.5  65.1   3.5   3.5 
+	4(Checkbox) 134.5  69.8   3.5   3.5 
+	5(Checkbox) 134.5  74.6   3.5   3.5 
+	6(Checkbox) 134.5  79.4   3.5   3.5 
+	7(Checkbox) 134.5  84.2   3.5   3.5 
+	8(Checkbox) 134.5  89.0   3.5   3.5 
+	9(Checkbox) 134.5  93.7   3.5   3.5 
+1.2(Choice) Penalties? {1}
+	0(Checkbox) 155.7  58.2   3.5   3.5 Type 1
+	1(Checkbox) 155.7  63.0   3.5   3.5 Type 2
+	2(Checkbox) 155.7  67.7   3.5   3.5 Type 3
+	3(Checkbox) 155.7  72.5   3.5   3.5 Type 4
+	4(Checkbox) 155.7  77.3   3.5   3.5 Type 5
+2(Head) Cycles
+2.1(Choice) C1 Poss. {1}
+	0(Checkbox)  23.2 123.2   3.5   3.5 None
+	1(Checkbox)  23.2 128.0   3.5   3.5 Short
+	2(Checkbox)  42.3 123.2   3.5   3.5 Medium
+	3(Checkbox)  42.3 128.0   3.5   3.5 Long
+2.2(Choice) C1 Truss {1}
+	0(Checkbox)  70.4 123.2   3.5   3.5 Pass
+	1(Checkbox)  70.4 128.0   3.5   3.5 Catch
+2.3(Choice) C1 Shots {1}
+	0(Checkbox)  99.5 123.2   3.5   3.5 0
+	1(Checkbox)  99.5 128.0   3.5   3.5 1
+	2(Checkbox) 113.6 123.2   3.5   3.5 2
+	3(Checkbox) 113.3 128.0   3.5   3.5 3+
+2.4(Choice) C1 Score {1}
+	0(Checkbox) 122.5 123.2   3.5   3.5 Low
+	1(Checkbox) 122.5 128.0   3.5   3.5 High
+2.5(Choice) C1 Role {1}
+	0(Checkbox) 146.2 123.2   3.5   3.5 Shooter
+	1(Checkbox) 146.2 128.0   3.5   3.5 Trusser
+	2(Checkbox) 169.0 123.2   3.5   3.5 Defense
+	3(Checkbox) 169.0 128.0   3.5   3.5 Useless
+2.6(Choice) C2 Poss. {1}
+	0(Checkbox)  23.2 132.9   3.5   3.5 None
+	1(Checkbox)  23.2 137.7   3.5   3.5 Short
+	2(Checkbox)  42.3 132.9   3.5   3.5 Medium
+	3(Checkbox)  42.3 137.7   3.5   3.5 Long
+2.7(Choice) C2 Truss {1}
+	0(Checkbox)  70.4 132.9   3.5   3.5 Pass
+	1(Checkbox)  70.4 137.7   3.5   3.5 Catch
+2.8(Choice) C2 Shots {1}
+	0(Checkbox)  99.5 132.9   3.5   3.5 0
+	1(Checkbox)  99.5 137.7   3.5   3.5 1
+	2(Checkbox) 113.6 132.9   3.5   3.5 2
+	3(Checkbox) 113.3 137.7   3.5   3.5 3+
+2.9(Choice) C2 Score {1}
+	0(Checkbox) 122.5 132.9   3.5   3.5 Low
+	1(Checkbox) 122.5 137.7   3.5   3.5 High
+2.10(Choice) C2 Role {1}
+	0(Checkbox) 146.2 132.9   3.5   3.5 Shooter
+	1(Checkbox) 146.2 137.7   3.5   3.5 Trusser
+	2(Checkbox) 169.0 132.9   3.5   3.5 Defense
+	3(Checkbox) 169.0 137.7   3.5   3.5 Useless
+2.11(Choice) C3 Poss. {1}
+	0(Checkbox)  23.2 142.6   3.5   3.5 None
+	1(Checkbox)  23.2 147.4   3.5   3.5 Short
+	2(Checkbox)  42.3 142.6   3.5   3.5 Medium
+	3(Checkbox)  42.3 147.4   3.5   3.5 Long
+2.12(Choice) C3 Truss {1}
+	0(Checkbox)  70.4 142.6   3.5   3.5 Pass
+	1(Checkbox)  70.4 147.4   3.5   3.5 Catch
+2.13(Choice) C3 Shots {1}
+	0(Checkbox)  99.5 142.6   3.5   3.5 0
+	1(Checkbox)  99.5 147.4   3.5   3.5 1
+	2(Checkbox) 113.6 142.6   3.5   3.5 2
+	3(Checkbox) 113.3 147.4   3.5   3.5 3+
+2.14(Choice) C3 Score {1}
+	0(Checkbox) 122.5 142.6   3.5   3.5 Low
+	1(Checkbox) 122.5 147.4   3.5   3.5 High
+2.15(Choice) C3 Role {1}
+	0(Checkbox) 146.2 142.6   3.5   3.5 Shooter
+	1(Checkbox) 146.2 147.4   3.5   3.5 Trusser
+	2(Checkbox) 169.0 142.6   3.5   3.5 Defense
+	3(Checkbox) 169.0 147.4   3.5   3.5 Useless
+2.16(Choice) C4 Poss. {1}
+	0(Checkbox)  23.2 152.3   3.5   3.5 None
+	1(Checkbox)  23.2 157.1   3.5   3.5 Short
+	2(Checkbox)  42.3 152.3   3.5   3.5 Medium
+	3(Checkbox)  42.3 157.1   3.5   3.5 Long
+2.17(Choice) C4 Truss {1}
+	0(Checkbox)  70.4 152.3   3.5   3.5 Pass
+	1(Checkbox)  70.4 157.1   3.5   3.5 Catch
+2.18(Choice) C4 Shots {1}
+	0(Checkbox)  99.5 152.3   3.5   3.5 0
+	1(Checkbox)  99.5 157.1   3.5   3.5 1
+	2(Checkbox) 113.6 152.3   3.5   3.5 2
+	3(Checkbox) 113.3 157.1   3.5   3.5 3+
+2.19(Choice) C4 Score {1}
+	0(Checkbox) 122.5 152.3   3.5   3.5 Low
+	1(Checkbox) 122.5 157.1   3.5   3.5 High
+2.20(Choice) C4 Role {1}
+	0(Checkbox) 146.2 152.3   3.5   3.5 Shooter
+	1(Checkbox) 146.2 157.1   3.5   3.5 Trusser
+	2(Checkbox) 169.0 152.3   3.5   3.5 Defense
+	3(Checkbox) 169.0 157.1   3.5   3.5 Useless
+3(Head) Operation
+3.1(Head) Rate Each of the Following Qualities
+3.1.1(Mark) Speed {1}
+	1 - 5
+	0(Checkbox)  72.2 183.4   3.5   3.5 
+	1(Checkbox)  77.8 183.4   3.5   3.5 
+	2(Checkbox)  83.4 183.4   3.5   3.5 
+	3(Checkbox)  89.1 183.4   3.5   3.5 
+	4(Checkbox)  94.7 183.4   3.5   3.5 
+3.1.2(Mark) Agility {1}
+	1 - 5
+	0(Checkbox)  72.2 188.2   3.5   3.5 
+	1(Checkbox)  77.8 188.2   3.5   3.5 
+	2(Checkbox)  83.4 188.2   3.5   3.5 
+	3(Checkbox)  89.1 188.2   3.5   3.5 
+	4(Checkbox)  94.7 188.2   3.5   3.5 
+3.1.3(Mark) Driver ability {1}
+	1 - 5
+	0(Checkbox)  72.2 193.0   3.5   3.5 
+	1(Checkbox)  77.8 193.0   3.5   3.5 
+	2(Checkbox)  83.4 193.0   3.5   3.5 
+	3(Checkbox)  89.1 193.0   3.5   3.5 
+	4(Checkbox)  94.7 193.0   3.5   3.5 
+3.1.4(Mark) Shoving performance {1}
+	1 - 5
+	0(Checkbox)  72.2 197.8   3.5   3.5 
+	1(Checkbox)  77.8 197.8   3.5   3.5 
+	2(Checkbox)  83.4 197.8   3.5   3.5 
+	3(Checkbox)  89.1 197.8   3.5   3.5 
+	4(Checkbox)  94.7 197.8   3.5   3.5 
+3.2(Choice) Check Thouse Which Apply {1}
+	0(Checkbox) 107.8 185.9   3.5   3.5 Especially Innovative Strategy
+	1(Checkbox) 107.8 190.7   3.5   3.5 Tipped
+	2(Checkbox) 107.8 195.5   3.5   3.5 Freeze-up/Glitch
+4(Head) Comments
+4.1(Text) Put any additional qualitative information here: {1}
+	0(Textbox )  13.0 223.3 184.0  47.8 
+
+------------------------------------------------------------------------------
+- SDAPS -- add
+------------------------------------------------------------------------------
+Converting input files into a single temporary file.
+Processing /tmp/sdaps-convert-C4bxgG.tif
+Done
+------------------------------------------------------------------------------
+- SDAPS -- recognize
+------------------------------------------------------------------------------
+1 sheet
+0.659735 seconds per sheet
+------------------------------------------------------------------------------
+- SDAPS -- gui
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+- SDAPS -- csvdata
+------------------------------------------------------------------------------
